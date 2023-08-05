@@ -1,0 +1,148 @@
+.web_sesign_service_page{
+    height:500px ;
+    width:100vw;
+    margin-left:150px;
+    padding:60px;
+    display:flex;
+    gap:100px
+}
+
+.text{
+    padding:40px;
+    height:300px;
+    width:800px;
+   
+    margin-left:-80px;
+}
+.text h6{
+    color:#2128bd;
+}
+.text h4{
+margin-top: 20px;
+font-weight: 700;
+}
+.text p{
+    margin-top: 20px;
+   font-style: normal;
+}
+
+
+.website_img{
+    position:relative;
+    bottom:20px;
+    height:350px;
+    width:500px;
+   
+    right:100px;
+}
+
+.website_img img{
+    height:350px;
+    width:400px;
+    
+}
+
+.website_img img:hover{
+    scale:1.1;
+    transition:1s;
+}
+
+.bigimg {
+    
+    height:832px;
+    width:100vw;
+   /* border:1px solid black; */
+    padding:20px;
+    position: relative;
+    bottom:50px
+}
+
+.bigimg .need_website{
+    height:40px;
+    width:100vw;
+    text-align: center;
+   /* border:1px solid black; */
+    position:relative;
+    position: relative;
+    bottom:10px;
+}
+
+.bigimg .divimg{
+    height:750px;
+    width:1000px;
+   /* border:1px solid black; */
+    position:relative;
+    top:30px;
+    left:280px
+}
+
+.bigimg .divimg .hospital{
+    position: relative;
+    height:750px;
+    width:200px
+}
+
+.bigimg .divimg .hospital img{
+    height:749px;
+    width:320px
+}
+
+.bigimg .divimg .landing_page{
+    position: relative;
+    bottom: 750px;;
+    height:300px;
+    width:310px;
+left:330px;
+    
+
+}
+
+.bigimg .divimg .landing_page img{
+    height:300px;
+    width:310px;
+}
+
+.bigimg .divimg .appdev{
+    height:450px;
+    width:310px;
+    
+    position: relative;
+    bottom: 750px;
+    left:330px
+
+}
+
+.bigimg .divimg .appdev img{
+    height:450px;
+    width:310px;
+}
+
+
+.bigimg .divimg  .appdev2{
+    height:450px;
+    width:310px;
+   
+    position:relative;
+    bottom:1500px;
+    left:650px
+
+}
+
+.bigimg .divimg  .appdev2 img{
+    height:450px;
+    width:310px;
+}
+
+.bigimg .divimg .landing_page2{
+    position:relative;
+    bottom:1500px;
+    
+    height:300px;
+    width:310px;
+    left: 650px;;
+}
+
+.bigimg .divimg .landing_page2 img{
+    height:300px;
+    width:310px;
+}
