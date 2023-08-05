@@ -2610,7 +2610,7 @@ input[type="text"] {
   position: relative;
 }
 
-@media (min-width: 1550px) {
+@media (min-width: 1300px) {
   #flowText span {
     position: relative;
     display: inline-block;
@@ -2710,7 +2710,7 @@ input[type="text"] {
 .agy-project-wrapper {
   padding: 69px 0 50px;
   position: relative;
-  background: ;
+ 
   background-size: cover;
   background-position: center;
 }
@@ -3190,8 +3190,6 @@ input[type="text"] {
 .Graphics-img {
   height: 350px;
   width: 550px;
-  /* margin-left: 30px !important; */
-  /* padding: 30px; */
   border-radius: 30px;
 }
 
@@ -3293,10 +3291,11 @@ input[type="text"] {
   color: white;
   background: var(--e-global-color-dark-blue) !important;
 }
-#carousel-indicators > div {
+#carouselExampleIndicators .carousel-indicators {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 @media (max-width: 900px) {
   .service-content-box div{
@@ -3316,10 +3315,10 @@ input[type="text"] {
   }
 }
 
+
 .graphic-design-herosection {
   display: flex;
   justify-content: center;
-  align-items: center;
   background-image: linear-gradient(
     -72deg,
     var(--e-global-color-bg1) 0%,
@@ -3330,29 +3329,383 @@ input[type="text"] {
   padding: 10% 0;
 }
 .graphic-design-herosection > div {
-  width: 50%;
-  display: grid;
-  place-items: center;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.graphic-design-herosection > div:nth-child(1){
+  padding-right: 3%;
+  
+}
+.graphic-design-herosection .agy-about-text{
+  padding-left: 3%;
 }
 .graphic-design-herosection > div img {
-  width: 90%;
+  width: 100%;
   height: 100%;
 }
 <<<<<<< HEAD
+ 
+=======
+<<<<<<< HEAD
+/* <<<<<<< HEAD */
+=======
+<<<<<<< HEAD
+ 
+=======
+<<<<<<< HEAD
+>>>>>>> 062bca8d707d0af4703701725eb5986c5efb2809
+>>>>>>> ccfd491aa7e0224cc0bd42e2fc2de6a9fff22650
+
 .graphic-design-herosection > div:nth-child(2) {
   padding: 0 10%;
 }
+<<<<<<< HEAD
+ 
 =======
+
+/* =======
+>>>>>>> 852e77b15f7556f5a328e8cf7aa5e9a0e32ac18b */
+>>>>>>> ccfd491aa7e0224cc0bd42e2fc2de6a9fff22650
 .graphic-design-herosection > div:nth-child(2){
   padding: 0 3%;
 }
 
+ 
 .graphic-design-herosection:nth-child(odd){
   flex-flow: row-reverse;
 }
 
+<<<<<<< HEAD
+ 
+=======
+<<<<<<< HEAD
+/* <<<<<<< HEAD */
+=======
+<<<<<<< HEAD
+>>>>>>> ccfd491aa7e0224cc0bd42e2fc2de6a9fff22650
+@media(max-width: 1400px) and (min-width: 1000px){
+  .graphic-design-herosection > div {
+    width: 50%;
+  }
+ 
+}
+@media(max-width: 990px){
+  .graphic-design-herosection{
+    align-items: center;
+    justify-content: center;
+    padding: 20% 0;
+  }
+  .graphic-design-herosection > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .graphic-design-herosection > div:nth-child(1){
+    padding: 0px !important;
+    
+  }
+  .graphic-design-herosection > div:nth-child(2){
+    margin-top: 30px;
+    padding: 0 !important;
+    width: 95%;
+
+  }
+  .graphic-design-herosection > div:nth-child(2) h2{
+    text-align: center;
+  }
+  .graphic-design-herosection > div:nth-child(2) p{
+    text-align: center;
+  }
+}
+<<<<<<< HEAD
+ 
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 062bca8d707d0af4703701725eb5986c5efb2809
 .Software-develop-title
 {
   
 }
->>>>>>> 3540c50485cb46c7cf8d5ba5b575d9349eaf1bf0
+
+
+
+
+<<<<<<< HEAD
+ 
+ 
+/* >>>>>>> 852e77b15f7556f5a328e8cf7aa5e9a0e32ac18b */
+=======
+>>>>>>> 062bca8d707d0af4703701725eb5986c5efb2809
+/* rajesh css  social media css*/
+
+
+>>>>>>> ccfd491aa7e0224cc0bd42e2fc2de6a9fff22650
+
+.social_imgg{
+  width:100vw;
+  height:500px;
+  background-image: linear-gradient(-72deg,var( --e-global-color-bg1)0%, var(--e-global-color-bg2)100%);
+  display:flex;
+
+
+
+} 
+
+.social_imgg .img{
+ 
+  padding:50px;
+  height:400px;
+  width:410px;
+  margin-left: 80px;
+  margin-bottom:500px
+}
+
+.social_imgg .img img{
+  height:400px;
+  width:410px;
+  mix-blend-mode: darken;
+  margin-left:80px;
+  border-radius: 30px;
+  margin-bottom:500px
+}
+
+.social_imgg .content{
+  margin-left:750px;
+  height:400px;
+  width:100px;
+ position:relative;
+top:100px
+
+  
+}
+
+.social_imgg .content h2{
+  margin-top:50px;
+  font-weight: 500;
+  color:black;
+  margin-left:-510px
+
+}
+
+.social_imgg .content p{
+  margin-left:-510px
+ 
+  
+  
+}
+
+.social_imgg .content #p1{
+  position: relative;
+  top:35px;
+  color:#143f6b;
+  font-weight: 800;
+}
+
+/* .social_img .img img:hover{
+  scale:0.9;
+  transition: 1s;
+} */
+
+/* rajesh web_design css */
+
+
+.web_sesign_service_page{
+  height:500px ;
+  width:100vw;
+  
+  padding:90px;
+  display:flex;
+  gap:100px;
+  background-image: linear-gradient(-72deg,var( --e-global-color-bg1)0%, var(--e-global-color-bg2)100%);
+}
+
+.text{
+  padding:40px;
+  height:300px;
+  width:800px;
+ 
+  margin-left:80px;
+}
+.text h6{
+  color:#2128bd;
+}
+.text h4{
+margin-top: 20px;
+font-weight: 700;
+}
+.text p{
+  margin-top: 20px;
+ font-style:normal;
+}
+
+
+.website_img{
+  position:relative;
+  bottom:20px;
+  height:350px;
+  width:500px;
+ 
+  right:110px;
+}
+
+.website_img img{
+  height:400px;
+  width:410px;
+  border-radius: 30px;
+  margin-left:100px;
+  margin-top:-50px
+}
+
+/* .website_img img:hover{
+  scale:1.1;
+  transition:1s;
+} */
+
+.bigimg {
+  
+  height:832px;
+  width:100vw;
+ /* border:1px solid black; */
+  padding:20px;
+  position: relative;
+  bottom:50px;
+  right:100px
+}
+
+.bigimg .need_website{
+  height:40px;
+  width:100vw;
+  text-align: center;
+ /* border:1px solid black; */
+  position:relative;
+  position: relative;
+  bottom:10px;
+}
+
+.bigimg .divimg{
+  height:750px;
+  width:1000px;
+ /* border:1px solid black; */
+  position:relative;
+  top:30px;
+  left:280px
+}
+
+.bigimg .divimg .hospital{
+  position: relative;
+  height:750px;
+  width:360px
+}
+
+.bigimg .divimg .hospital img{
+  height:749px;
+  width:360px
+}
+
+.bigimg .divimg .landing_page{
+  position: relative;
+  bottom: 750px;;
+  height:300px;
+  width:360px;
+left:370px;
+  
+
+}
+
+.bigimg .divimg .landing_page img{
+  height:300px;
+  width:360px;
+}
+
+.bigimg .divimg .appdev{
+  height:450px;
+  width:370px;
+  
+  position: relative;
+  bottom: 750px;
+  left:370px
+
+}
+
+.bigimg .divimg .appdev img{
+  height:450px;
+  width:360px;
+}
+
+
+.bigimg .divimg  .appdev2{
+  height:450px;
+  width:310px;
+ 
+  position:relative;
+  bottom:1500px;
+  left:740px
+
+}
+
+.bigimg .divimg  .appdev2 img{
+  height:450px;
+  width:370px;
+}
+
+.bigimg .divimg .landing_page2{
+  position:relative;
+  bottom:1500px;
+  
+  height:300px;
+  width:370px;
+  left: 740px;;
+}
+
+.bigimg .divimg .landing_page2 img{
+  height:300px;
+  width:370px;
+}
+ 
+.Software-develop-title
+{
+  margin-right: 400px;
+  white-space: nowrap;
+}
+
+.mark-edit
+{
+  margin-right: 500px;
+  color: #2128bd;
+  white-space: nowrap;
+}
+
+
+.mark-edit:hover
+{
+  color: black;
+  transition: 0.6s;
+  animation: ease-in-out;
+}
+
+.features-software
+{
+  font-size: small;
+  color: #2128bd;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.features-software:hover
+{
+  color: black;
+  transition: 0.6s;
+  animation: ease-in-out;
+  text-decoration: none;
+}
+
+.software-develop-top-edit
+{
+  margin-bottom: -90px;
+}
+ 
