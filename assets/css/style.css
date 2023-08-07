@@ -293,6 +293,7 @@ a {
   font-size: 14px;
   line-height: 14px;
   font-weight: 400;
+  white-space: nowrap;
 }
 
 .home-header-section .main-header .navbar-collapse .navbar-nav .active>a {
