@@ -1409,7 +1409,7 @@ a {
 
 .customer-section .carousel-control .left-i {
   position: absolute;
-  left: -75px;
+  left: -50px;
   top: 187px;
   background: var(--e-global-color-secondary);
   color: var(--e-global-color-dark-blue);
@@ -1876,7 +1876,7 @@ a {
 .footer-form-section .art-outer-box {
   background: var(--e-global-color-card);
   padding: 80px 80px 66px;
-  border-radius: 24px;
+  border-radius: 0px;
   position: relative;
 }
 
@@ -3144,7 +3144,7 @@ input[type="text"] {
   }
 
   .customer-section .carousel-control .right-i {
-    left: 32px !important;
+    left: 12px !important;
     width: 35px;
     height: 35px;
     font-size: 14px;
@@ -3153,13 +3153,17 @@ input[type="text"] {
   }
 
   .customer-section .carousel-control .left-i {
-    left: 30px !important;
+    left: 0px !important;
     top: 130px !important;
     width: 35px;
     height: 35px;
     font-size: 14px;
     line-height: 16px;
     padding: 8px 0;
+  }
+
+  .customer-section .testimonial-box{
+    margin-left: 0 !important;
   }
 }
 
@@ -3247,6 +3251,7 @@ input[type="text"] {
   position: absolute;
   top: 30%;
 }
+ 
 @media (min-width: 1200px) {
   #carouselExampleIndicators {
     height: 100vh;
@@ -3298,6 +3303,13 @@ input[type="text"] {
   margin: auto;
 }
 @media (max-width: 900px) {
+  #carouselExampleIndicators .carousel-item img{
+    min-height: 500px;
+    object-fit: cover;
+  }
+  #carouselExampleIndicators{
+    min-height: 600px;
+  }
   .service-content-box div{
     top: 20%;
     width: 80%;
@@ -3346,46 +3358,12 @@ input[type="text"] {
   width: 100%;
   height: 100%;
 }
-<<<<<<< HEAD
  
-=======
-<<<<<<< HEAD
-/* <<<<<<< HEAD */
-=======
-<<<<<<< HEAD
- 
-=======
-<<<<<<< HEAD
->>>>>>> 062bca8d707d0af4703701725eb5986c5efb2809
->>>>>>> ccfd491aa7e0224cc0bd42e2fc2de6a9fff22650
-
 .graphic-design-herosection > div:nth-child(2) {
   padding: 0 10%;
 }
-<<<<<<< HEAD
  
-=======
-
-/* =======
->>>>>>> 852e77b15f7556f5a328e8cf7aa5e9a0e32ac18b */
->>>>>>> ccfd491aa7e0224cc0bd42e2fc2de6a9fff22650
-.graphic-design-herosection > div:nth-child(2){
-  padding: 0 3%;
-}
-
  
-.graphic-design-herosection:nth-child(odd){
-  flex-flow: row-reverse;
-}
-
-<<<<<<< HEAD
- 
-=======
-<<<<<<< HEAD
-/* <<<<<<< HEAD */
-=======
-<<<<<<< HEAD
->>>>>>> ccfd491aa7e0224cc0bd42e2fc2de6a9fff22650
 @media(max-width: 1400px) and (min-width: 1000px){
   .graphic-design-herosection > div {
     width: 50%;
@@ -3421,31 +3399,8 @@ input[type="text"] {
     text-align: center;
   }
 }
-<<<<<<< HEAD
- 
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 062bca8d707d0af4703701725eb5986c5efb2809
-.Software-develop-title
-{
-  
-}
-
-
-
-
-<<<<<<< HEAD
  
  
-/* >>>>>>> 852e77b15f7556f5a328e8cf7aa5e9a0e32ac18b */
-=======
->>>>>>> 062bca8d707d0af4703701725eb5986c5efb2809
-/* rajesh css  social media css*/
-
-
->>>>>>> ccfd491aa7e0224cc0bd42e2fc2de6a9fff22650
-
 .social_imgg{
   width:100vw;
   height:500px;
@@ -3709,3 +3664,39 @@ left:370px;
   margin-bottom: -90px;
 }
  
+
+
+
+.dropdown-menu{
+  z-index: 500 !important;
+  background: white !important;
+}
+@media only screen and (max-width: 991px){
+  .dropdown-menu{
+    background: var(--e-global-color-accent) !important;
+  }
+}
+.dropdown-menu li{
+  display: block !important;
+  margin-top: 10px !important;
+}
+.dropdown-menu li:nth-child(1){
+  display: none !important;
+}
+.dropdown-menu li:nth-child(2){
+  display: none !important;
+}
+
+
+.dropdown-menu .dropdown-item{
+  z-index: 500 !important;
+}
+.nav-item{
+  z-index: 5000 !important;
+}
+.dropdown{
+  z-index: 500000 !important;
+}
+.home-header-section{
+  z-index: 5000;
+}
