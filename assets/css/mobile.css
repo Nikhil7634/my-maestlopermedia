@@ -1353,6 +1353,8 @@
 
   .footer-form-section .footer-content .footer-section-text {
     padding-right: 0px;
+    text-align: justify;
+    padding: 15px;
   }
 
   .footer-form-section .footer-content figure {
@@ -2306,7 +2308,7 @@
   .how-it-works .services-content .service-fig1 {
     text-align: center;
   }
- 
+
 
   .how-it-works {
     padding: 70px 0 70px;
