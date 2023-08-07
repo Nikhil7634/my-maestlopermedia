@@ -1382,6 +1382,7 @@
 
   .how-it-works .services-content {
     padding: 20px 16px 20px 16px;
+    margin: 10px !important;
   }
 
   .how-it-works .services-content .number-box {
@@ -1391,7 +1392,7 @@
     font-size: 16px;
     line-height: 16px;
     left: 33px;
-    top: 13px;
+    top: 20px !important;
   }
 
   .how-it-works h3 {
@@ -1558,7 +1559,7 @@
     margin-left: 0px;
     width: 100%;
     padding: 20px;
-    border-radius: 50px;
+    border-radius: 10px;
   }
 
   .agy-about-text p {
@@ -2305,6 +2306,7 @@
   .how-it-works .services-content .service-fig1 {
     text-align: center;
   }
+ 
 
   .how-it-works {
     padding: 70px 0 70px;
@@ -4055,7 +4057,7 @@ h2 {
     margin-left: 0px;
     width: 100%;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
   }
 
   /*  */

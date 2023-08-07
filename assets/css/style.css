@@ -2016,6 +2016,20 @@ a {
   margin-bottom: -36px !important;
 }
 
+@media only screen and (max-width: 991px) {
+  .how-it-works .services-content .service-fig1 img {
+    height: 100px !important;
+    margin-bottom: 20px;
+  }
+}
+@media(min-width: 770px) and (max-width: 1200px){
+  .about-us-content{
+    zoom: 80%;
+    margin-left: 50px;
+  }
+}
+
+
 .how-it-works .services-content .number-box {
   background: var(--e-global-color-number-box);
   color: var(--e-global-color-secondary);
@@ -2027,7 +2041,7 @@ a {
   line-height: 20px;
   position: absolute;
   left: 27px;
-  top: 10px;
+  top: 20px;
 }
 
 .how-it-works .services-content:hover {
@@ -3121,7 +3135,7 @@ input[type="text"] {
 .Graphics-img {
   height: 350px;
   width: 550px;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .dropdownn:hover .dropdown-menus {
@@ -3181,17 +3195,19 @@ input[type="text"] {
   top: 30%;
 }
 
- 
+
 .navbar-collapse.in {
+  overflow-y: visible;
+  width: 50%;
+}
+
+@media (max-width: 540px) {
+  .navbar-collapse.in {
     overflow-y: visible;
-    width: 50% !important;
+    width: 90% !important;
   }
-  @media (max-width: 540px){
-    .navbar-collapse.in {
-      overflow-y: visible;
-      width: 90% !important;
-    }
-  }
+}
+
 @media (min-width: 1200px) {
   #carouselExampleIndicators {
     height: 100vh;
@@ -3290,6 +3306,10 @@ input[type="text"] {
   flex-wrap: wrap;
   width: 100%;
   padding: 10% 0;
+  overflow: hidden;
+}
+.graphic-design-herosection:nth-child(odd){
+  flex-flow: row-reverse;
 }
 
 .graphic-design-herosection>div {
@@ -3303,13 +3323,56 @@ input[type="text"] {
 
 .graphic-design-herosection>div:nth-child(1) {
   padding-right: 3%;
-
 }
-
+.graphic-design-herosection>div:nth-child(1) img{
+  border-radius: 15px;
+}
 .graphic-design-herosection .agy-about-text {
   padding-left: 3%;
 }
 
+.graphic-design-herosection .agy-about-text h2 {
+  width: 100%;
+  line-height: 40px !important;
+}
+.graphic-design-herosection .agy-about-text h4{
+  width: 100%;
+  color: var(--e-global-color-accent);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.graphic-design-herosection .agy-about-text p{
+  width: 100%;
+}
+@media (max-width: 990px){
+  .graphic-design-herosection>div:nth-child(1) img{
+    border-radius: 33px;
+  }
+  .graphic-design-herosection:nth-child(odd){
+    flex-flow: column;
+  }
+  .graphic-design-herosection .agy-about-text h4{
+    text-align: center;
+  }
+  .graphic-design-herosection .agy-about-text h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .graphic-design-herosection .agy-about-text p{
+    width: 100%;
+    text-align: left !important;
+    padding-left: 20px;
+  }
+}
+.graphic-design-herosection .agy-about-text p span{
+  color: var(--e-global-color-accent);
+  margin-top: 10px;
+ 
+}
+.graphic-design-herosection .agy-about-text p span a{
+  color: var(--e-global-color-dark-blue);
+  font-size: 1.8rem;
+}
 .graphic-design-herosection>div img {
   width: 100%;
   height: 100%;
@@ -3660,3 +3723,47 @@ input[type="text"] {
 .home-header-section {
   z-index: 5000;
 }
+
+
+.Software-develop-title
+{
+  margin-right: 400px;
+  white-space: nowrap;
+}
+
+.mark-edit
+{
+  margin-right: 500px;
+  color: #2128bd;
+  white-space: nowrap;
+}
+
+
+.mark-edit:hover
+{
+  color: black;
+  transition: 0.6s;
+  animation: ease-in-out;
+}
+
+.features-software
+{
+  font-size: small;
+  color: #2128bd;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.features-software:hover
+{
+  color: black;
+  transition: 0.6s;
+  animation: ease-in-out;
+  text-decoration: none;
+}
+
+.software-develop-top-edit
+{
+  margin-bottom: -90px;
+}
+ 
