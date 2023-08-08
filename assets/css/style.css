@@ -586,9 +586,9 @@ a {
 
 .how-section1 .row .how-img img {
   border-radius: 0% !important;
-  width: 100%;
+  height: 100%;
 }
-
+ 
 
 @media(max-width: 900px) {
   .how-section1 {
@@ -817,7 +817,7 @@ a {
 
 .about-section {
   position: relative;
-  padding: 100px 0 135px;
+  padding: 50px 0 50px;
   overflow: hidden;
   background-image: linear-gradient(-72deg,
       var(--e-global-color-bg1) 0%,
@@ -3768,3 +3768,36 @@ input[type="text"] {
   margin-bottom: -90px;
 }
  
+
+ 
+
+.our-services-section .col-12 >h3{
+  margin-bottom: 10px !important;
+}
+.our-services-section .col-12 > p{
+  width: 50%;
+  margin: auto;
+  margin-top: 10px !important;
+  text-align: center;
+}
+
+@media(max-width: 780px){
+  .our-services-section .col-12 > p{
+    width: 90%;
+  }
+}
+
+
+
+.our-services-section > .row{
+  margin: auto;
+  margin-top: 80px;
+  width: 60%;
+  flex-wrap: wrap;
+  
+}
+
+.our-services-section > .row .agy-project-inner img{
+  margin-top: 50px;
+  border-radius: 5px !important;
+}
