@@ -568,6 +568,7 @@ a {
 
   padding-right: calc(var(--bs-gutter-x) * .0) !important;
   padding-left: calc(var(--bs-gutter-x) * .0) !important;
+  padding-top: 30px !important;
 }
 
 .how-section1 .row>div {
@@ -3296,7 +3297,7 @@ input[type="text"] {
       var(--e-global-color-bg2) 100%);
   flex-wrap: wrap;
   width: 100%;
-  padding: 5% 0;
+  padding: 10% 0;
   overflow: hidden;
 }
 
