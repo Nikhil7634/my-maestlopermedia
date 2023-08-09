@@ -275,7 +275,7 @@
 
 @media screen and (max-width: 1550px) {
   .home-header-section .main-header {
-    padding: 26px 100px 0 260px;
+    padding: 26px 0px 0px 0px;
   }
 
   .home-header-section .main-header .navbar-brand {
@@ -288,7 +288,7 @@
   }
 
   .home-header-section .main-header .navbar-brand {
-    margin-right: 24px;
+    margin-right: 150px;
   }
 
   .home-header-section .banner-right-img {
@@ -2645,6 +2645,14 @@
 }
 
 @media screen and (max-width: 767px) {
+  .cover h5 {
+    font-size: 20px;
+  }
+
+  .footer-form-section .footer-content .footer-section-text {
+    padding: 0px;
+  }
+
   .home-header-section .main-header .navbar-collapse .btn-talk a {
     font-size: 16px;
     line-height: 16px;
