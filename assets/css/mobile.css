@@ -3036,7 +3036,7 @@
   }
 
   h2 {
-    font-size: 26px;
+    /* font-size: 26px; */
     line-height: 34px;
   }
 
@@ -3395,7 +3395,7 @@ h2 {
 @media screen and (max-width: 575px) {
   .home-banner-section .banner-container-box .home-banner-text h1 {
     padding: 0 6px;
-    /* font-size: 24px; */
+    font-size: 24px;
     line-height: 30px;
   }
 
