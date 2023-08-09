@@ -1575,7 +1575,7 @@
 
   .agy-about-text h2 {
     font-size: 30px !important;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .home-banner-section .banner-container-box .banner-paragraph {
