@@ -3886,6 +3886,9 @@ input[type="text"] {
   .caseStudieSection .caseStudieBox img{
     width: 45%;
   }
+  .success-story .about-us-content{
+    transform: scale(0.9) !important;
+  }
 
 }
 @media(max-width: 560px){
@@ -3893,6 +3896,13 @@ input[type="text"] {
     transform: scale(0.9);
   }
   .container2 {
+    transform: scale(0.9);
+  }
+  .research-section .about-us-content p{
+    transform: scale(0.9);
+  }
+  .research-section .about-us-content ul{
+    padding-left: 0px !important;
     transform: scale(0.9);
   }
 }
