@@ -2607,7 +2607,7 @@ input[type="text"] {
 
 .web-box .box:hover .cover {
   height: 100%;
-  top: 30%;
+  top: 20%;
   text-align: center;
 }
 
@@ -3813,7 +3813,7 @@ input[type="text"] {
 @media(max-width: 710px) {
   .our-services-section>.row .agy-project-inner {
     position: relative;
-    margin-left: 0px;
+    margin-left: 0px !important;
   }
 
 }
@@ -3824,4 +3824,32 @@ input[type="text"] {
     flex-direction: row;
     padding-left: 150px;
   }
+}
+
+
+
+@media(min-width: 2180px){
+  header{
+    display: flex;
+    justify-content: center;
+}
+.home-banner-section{
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media(min-width: 990px) and (max-width: 1550px){
+  header{
+    transform: scale(0.9);
+  }
+}
+
+
+.caseStudieSection{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
