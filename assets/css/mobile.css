@@ -1346,6 +1346,10 @@
   .footer-form-section .footer-content-2 {
     margin-bottom: 50px;
     padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
   }
 
   .footer-form-section .footer-bar .float-right {
@@ -2558,6 +2562,9 @@
   .footer-form-section .footer-content-2 {
     margin-bottom: 30px;
     padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
   }
 
   .footer-form-section .foo-content-3 ul li a {
