@@ -828,6 +828,7 @@
     margin-bottom: 16px;
     font-size: 34px;
     line-height: 40px;
+    padding: 10px;
   }
 
   /* our services */
@@ -3511,6 +3512,7 @@ h2 {
   .about-section .about-us-content {
     text-align: center;
     margin-bottom: 10px;
+    padding: 5px;
   }
 
   .about-section .about-us-content .banner-btn {
